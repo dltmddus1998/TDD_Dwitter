@@ -16,7 +16,7 @@ const corsOption = {
   optionsSuccessStatus: 200,
 };
 
-export async function startServer() {
+export async function startServer(port) {
   const app = express();
   app.use(express.json());
   app.use(helmet());
@@ -41,7 +41,7 @@ export async function startServer() {
   await sequelize.sync();
 
   console.log('Server is started....');
-  const server = app.listen(config.port);
+  const server = app.listen(port);
   initSocket(server);
   return server;
 }
