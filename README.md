@@ -2107,4 +2107,4 @@ describe('Sockets', () => {
 
 ## ♥️ 최종 커버리지 성공률 96%
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/622d6219-16b6-4d32-9cba-7acd32a1a923/Untitled.png)
+![image](https://user-images.githubusercontent.com/73332608/173178800-0d21cdb4-98de-4a3f-a89f-4523dd6cffe4.png)
